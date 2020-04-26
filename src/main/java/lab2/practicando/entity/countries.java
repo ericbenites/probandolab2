@@ -7,7 +7,7 @@ import javax.persistence.Table;
 import java.math.BigDecimal;
 
 @Entity
-@Table
+@Table(name="countries")
 public class countries {
     @Id
     @Column(name = "country_id")
