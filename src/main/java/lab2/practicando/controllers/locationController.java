@@ -25,5 +25,8 @@ public class locationController {
         return "location/gaaaa";
     }
 
-
+    @GetMapping("/agregarLocation")
+     public String agregar(){
+        return"location/agregarLocation";
+    }
 }
