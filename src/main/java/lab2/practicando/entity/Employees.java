@@ -14,7 +14,6 @@ import java.util.Date;
 @Table(name = "employees")
 public class Employees {
 
-
     @Id
     @Column(nullable = false)
     private String employee_id;
@@ -27,18 +26,18 @@ public class Employees {
     @Column(nullable = false)
     private Date hire_date;
     @Column(nullable = false)
-    private String jod_id;
+    private String job_id;
     private BigDecimal salary;
     private BigDecimal commission_pct;
     private String manager_id;
     @Column(nullable = false)
     private int department_id;
 
-    public String getEmployee_id() {
+    public String getEmployeeId() {
         return employee_id;
     }
 
-    public void setEmployee_id(String employee_id) {
+    public void setEmployeeId(String employee_id) {
         this.employee_id = employee_id;
     }
 
@@ -83,11 +82,11 @@ public class Employees {
     }
 
     public String getJod_id() {
-        return jod_id;
+        return job_id;
     }
 
-    public void setJod_id(String jod_id) {
-        this.jod_id = jod_id;
+    public void setJod_id(String job_id) {
+        this.job_id = job_id;
     }
 
     public BigDecimal getSalary() {
