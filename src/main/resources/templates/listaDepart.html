@@ -10,6 +10,8 @@
 </head>
 <body class="container">
 <h2>Lista Departments</h2>
+<a class="btn btn-info" th:href="@{'/agregarD'}" >Agregar Departamento</a>
+<div th:if="${mensaje != null}" th:text="${mensaje}" class="alert alert-success" role="alert"></div>
 <table class="table table-striped">
     <thead class="thead-dark">
     <tr>
@@ -19,6 +21,8 @@
         <th scope="col">Manger_Id</th>
         <th scope="col">Location_Id</th>
         <th scope="col">Short_Name</th>
+        <th></th>
+        <th></th>
     </tr>
     </thead>
     <tbody>
@@ -29,6 +33,9 @@
         <th scope="col" th:text="${c.manager_id}"></th>
         <th scope="col" th:text="${c.location_id}"></th>
         <th scope="col" th:text="${c.department_short_name}"></th>
+        <th><a class="btn btn-primary" th:href="@{'/editarD'+'?id='+${c.department_id}}">Editar Departamento</a></th>
+        <th><a class="btn btn-danger" th:href="@{'/borrarD'+'?id='+${c.department_id}}" >Borrar Departamento</a></th>
+
     </tr>
     </tbody>
 </table>
