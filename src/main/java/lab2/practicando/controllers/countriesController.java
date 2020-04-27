@@ -21,4 +21,7 @@ public class countriesController {
         model.addAttribute("listaCountries", listaCountries);
         return "countries/lista";
     }
+
+
+
 }
