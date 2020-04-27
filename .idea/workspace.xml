@@ -25,7 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9ff8508c-0bc4-416d-8733-4a7992b4a570" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="9c0eae81-289b-46e5-85d0-213b155011db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> 709915af9ead2334a143e1fdb8ccff113854cd8c
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +68,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="restartRequiresConfirmation" value="false" />
+=======
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+>>>>>>> 709915af9ead2334a143e1fdb8ccff113854cd8c
   </component>
   <component name="RunManager">
     <configuration name="PracticandoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
